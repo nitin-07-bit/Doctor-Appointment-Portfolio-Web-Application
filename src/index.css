@@ -17,3 +17,8 @@
   --color-cream-accent-bright: #0284C7;
   --color-cream-hover: #EDF4F9;
 }
+
+html, body, button, input, select, textarea, span, p, h1, h2, h3, h4, h5, h6, a {
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+}
+
