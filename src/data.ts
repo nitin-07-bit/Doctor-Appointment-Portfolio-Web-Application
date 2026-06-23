@@ -6,7 +6,7 @@ export const TREATMENTS: Treatment[] = [
     name: "Stroke",
     title: "Stroke & Cerebrovascular Care",
     description: "Acute cerebrovascular condition requiring rapid diagnostic profiling and medical intervention to restore blood flow and preserve neurological function.",
-    image: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=600&h=600",
+    image: "https://www.covenanthealth.com/wp-content/uploads/2024/05/Stroke-Care-iStock-1927703857.jpg",
     symptoms: ["Sudden weakness in face or limbs", "Slurred or distorted speech", "Loss of balance or coordination"],
     careApproach: "Thromboembolic guidelines, custom secondary prevention, and continuous neuro-restoration routing."
   },
@@ -15,7 +15,7 @@ export const TREATMENTS: Treatment[] = [
     name: "Epilepsy",
     title: "Epilepsy & Seizure Control",
     description: "Chronic neurological disorder characterized by recurrent unprovoked seizures, managed via advanced clinical EEG mapping and personalized pharmaceutical care.",
-    image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&q=80&w=600&h=600",
+    image: "https://oxfordneurologyservices.co.uk/wp-content/uploads/2023/06/neuro2.jpg",
     symptoms: ["Temporary blank staring or aura", "Uncontrolled muscle jerking", "Sudden transient loss of consciousness"],
     careApproach: "High-precision pharmacotherapy selection, clinical seizure charting, and lifestyle support."
   },
@@ -24,7 +24,7 @@ export const TREATMENTS: Treatment[] = [
     name: "Migraine",
     title: "Chronic Migraine & Headaches",
     description: "Sustained sensory and throbbing headache disorder treated through advanced target blocking, preventative agents, and specialized trigger therapy.",
-    image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&q=80&w=600&h=600",
+    image: "https://tse1.mm.bing.net/th/id/OIP.cgFR0d02jxE4r7F-qpdYdgHaLG?pid=ImgDet&w=202&h=303&c=7&dpr=1.3&o=7&rm=3",
     symptoms: ["Severe unilateral throbbing pain", "Heightened light and sound sensitivity", "Visual aura flashes or blind spots"],
     careApproach: "Modern preventative CGRP inhibitors, acute rescue mapping, and dietary trigger management."
   },
@@ -33,7 +33,7 @@ export const TREATMENTS: Treatment[] = [
     name: "Parkinson's Disease",
     title: "Parkinson's & Movement Disorders",
     description: "Progressive central nervous system pathology affecting motor control, sluggishness, and gait stability, managed through customized dopamine regulators.",
-    image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=600&h=600",
+    image: "blob:https://gemini.google.com/0d49b02a-c7d2-4c7a-b7b6-f0f9f746840c",
     symptoms: ["Unilateral resting tremors", "Bradykinesia and rigid limbs", "Posture instability while walking"],
     careApproach: "Dopaminergic medication titration, tailored motor therapies, and disease progression tracking."
   },
