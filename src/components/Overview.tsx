@@ -100,7 +100,41 @@ export default function Overview() {
             className="mt-6 border-t border-[#EDF4F9]"
           />
 
-          {/* Grid of basic parameters - Experience, Volume */}
+          {/* Qualifications Lists */}
+          <div className="mt-8 flex flex-col gap-5">
+            <h3 className="text-xs font-semibold uppercase tracking-[0.25em] text-[#5E7285] font-sans">
+              Qualifications
+            </h3>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {qualifications.map((q, idx) => (
+                <motion.div
+                  key={idx}
+                  whileHover={{ y: -5, scale: 1.02 }}
+                  transition={{ duration: 0.3 }}
+                  className="p-5 rounded-xl border border-[#D1E2E8] bg-white shadow-[0_4px_20px_rgba(30,62,98,0.02)] hover:shadow-[0_12px_24px_rgba(30,62,98,0.05)] relative group hover:border-[#0284C7]/30 transition-all duration-300 cursor-pointer"
+                >
+                  <div className="flex items-center gap-3 mb-2.5">
+                    <div className="h-7 w-7 rounded-md bg-[#EDF4F9] flex items-center justify-center text-[#0284C7] group-hover:bg-[#0284C7] group-hover:text-white transition-colors duration-300">
+                      <GraduationCap className="h-4 w-4" />
+                    </div>
+                    <span className="font-sans font-semibold text-[#1B365D] text-sm">
+                      {q.degree}
+                    </span>
+                  </div>
+                  <h4 className="text-xs font-semibold text-[#475569] font-mono leading-tight">
+                    {q.inst}
+                  </h4>
+                  {q.desc && (
+                    <p className="text-xs text-[#5E7285] leading-relaxed mt-1.5 font-sans">
+                      {q.desc}
+                    </p>
+                  )}
+                </motion.div>
+              ))}
+            </div>
+
+                      {/* Grid of basic parameters - Experience, Volume */}
           <div className="grid grid-cols-2 gap-6 my-6">
             <motion.div
               whileHover={{ y: -2, scale: 1.02 }}
@@ -132,40 +166,6 @@ export default function Overview() {
               </div>
             </motion.div>
           </div>
-
-          {/* Qualifications Lists */}
-          <div className="mt-8 flex flex-col gap-5">
-            <h3 className="text-xs font-semibold uppercase tracking-[0.25em] text-[#5E7285] font-sans">
-              Clinical Qualifications
-            </h3>
-            
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {qualifications.map((q, idx) => (
-                <motion.div
-                  key={idx}
-                  whileHover={{ y: -5, scale: 1.02 }}
-                  transition={{ duration: 0.3 }}
-                  className="p-5 rounded-xl border border-[#D1E2E8] bg-white shadow-[0_4px_20px_rgba(30,62,98,0.02)] hover:shadow-[0_12px_24px_rgba(30,62,98,0.05)] relative group hover:border-[#0284C7]/30 transition-all duration-300 cursor-pointer"
-                >
-                  <div className="flex items-center gap-3 mb-2.5">
-                    <div className="h-7 w-7 rounded-md bg-[#EDF4F9] flex items-center justify-center text-[#0284C7] group-hover:bg-[#0284C7] group-hover:text-white transition-colors duration-300">
-                      <GraduationCap className="h-4 w-4" />
-                    </div>
-                    <span className="font-sans font-semibold text-[#1B365D] text-sm">
-                      {q.degree}
-                    </span>
-                  </div>
-                  <h4 className="text-xs font-semibold text-[#475569] font-mono leading-tight">
-                    {q.inst}
-                  </h4>
-                  {q.desc && (
-                    <p className="text-xs text-[#5E7285] leading-relaxed mt-1.5 font-sans">
-                      {q.desc}
-                    </p>
-                  )}
-                </motion.div>
-              ))}
-            </div>
           </div>
         </div>
       </div>
