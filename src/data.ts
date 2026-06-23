@@ -33,7 +33,7 @@ export const TREATMENTS: Treatment[] = [
     name: "Parkinson's Disease",
     title: "Parkinson's & Movement Disorders",
     description: "Progressive central nervous system pathology affecting motor control, sluggishness, and gait stability, managed through customized dopamine regulators.",
-    image: "blob:https://gemini.google.com/0d49b02a-c7d2-4c7a-b7b6-f0f9f746840c",
+    image: "https://tse2.mm.bing.net/th/id/OIP.JxayfmIQF-nbbv8-fBusVwHaE9?w=2000&h=1339&rs=1&pid=ImgDetMain&o=7&rm=3",
     symptoms: ["Unilateral resting tremors", "Bradykinesia and rigid limbs", "Posture instability while walking"],
     careApproach: "Dopaminergic medication titration, tailored motor therapies, and disease progression tracking."
   },
@@ -42,7 +42,7 @@ export const TREATMENTS: Treatment[] = [
     name: "Dementia",
     title: "Dementia & Cognitive Memory Care",
     description: "Decline of cognitive abilities and functional memory including Alzheimer's, slowed through structured neuropsychological coaching and therapy.",
-    image: "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&q=80&w=600&h=600",
+    image: "https://media.istockphoto.com/id/1404531599/photo/worried-millennial-compassionate-woman-supporting-stressed-mother.jpg?s=170667a&w=0&k=20&c=5tYAaxavj8d4wsaJDLwg78NkgdAwDwjme6LHcARmCbU=",
     symptoms: ["Progressive memory loss affecting tasks", "Spatial disorientation or confusion", "Difficulty solving daily problems"],
     careApproach: "Comprehensive vascular cognitive support, targeted medication schemes, and active caregiver coaching."
   }
