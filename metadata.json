@@ -1,0 +1,6 @@
+{
+  "name": "Dr. Nitish Kumar - Consult Neurologist",
+  "description": "NIMHANS-trained Consultant Neurologist private specialist clinic landing page showcasing experience, treatments, credentials, and contact details.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
